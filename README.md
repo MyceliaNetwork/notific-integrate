@@ -27,7 +27,7 @@ import { createUrl } from "@departurelabs/notific-integrate"
 const notificUrl = createUrl({
   name: "Deeplink Integrator",
   canister_id: "rrkah-fqaaa-aaaaa-aaaaq-cai",
-  allowed_callbacks: ["rrkah-fqaaa-aaaaa-aaaaq-cai", "aaaaa-aa"],
+  allowed_callbacks: [],
   notify_callback: {
     principal: "rrkah-fqaaa-aaaaa-aaaaq-cai",
     method: "notify",
@@ -47,11 +47,13 @@ const notificUrl = createUrl({
 
 - `name`: The name of the integrator application
 - `canister_id`: The canister id of the integrator application
-- `allowed_callbacks`: The Principals that are allowed to call the integrator
+- `allowed_callbacks`: The Principals that are allowed to be called from within
+  Notific
 - `notify_callback`:
   - `principal`: The principal that will be called when the user performs a
-    callback action from Notific ` `method`: The method that will be called when
-    the user performs a callback action from Notific
+    callback action from Notific
+  - `method`: The method that will be called when the user performs a callback
+    action from Notific
 - `secret`: A secret that can be used to link the user to the integrator
   application
 
