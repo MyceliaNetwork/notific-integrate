@@ -1,6 +1,6 @@
 {
   "name": "@departurelabs/notific-integrate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "description": "Notific Integrate script. Creates a link to Notific which will automatically register your website as an integrator to the authenticated user",
   "main": "./dist/notific-integrate.esm.js",

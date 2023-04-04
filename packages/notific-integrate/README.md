@@ -4,7 +4,6 @@
   - [Installation](#installation)
   - [Usage](#usage)
     - [Configuration properties](#configuration-properties)
-  - [Publishing](#publishing)
   - [Websites](#websites)
 
 This package contains the Notific Integrate script. This script is used to
@@ -35,8 +34,7 @@ const notificUrl = createUrl({
   },
   secret: "secret",
 })
-</script>
-
+<script>
 
 <template>
 
@@ -59,19 +57,7 @@ const notificUrl = createUrl({
 - `secret`: A secret that can be used to link the user to the integrator
   application
 
-## Publishing
-
-```sh
-> npm run build
-> git add .
-> git commit -m "changes"
-> cd packages/notific-integrate
-> npm version <patch/minor/major>
-> npm publish
-```
-
 ## Websites
 
 - [@departurelabs/notific-integrate source](https://github.com/departurelabsic/notific)
 - [@departurelabs/notific-integrate package](https://www.npmjs.com/package/@departurelabs/notific-integrate)
-  Notific Integrate Script
