@@ -1,0 +1,28 @@
+{
+  "name": "@departurelabs/notific-integrate",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Notific Integrate script. Creates a link to Notific which will automatically register your website as an integrator to the authenticated user",
+  "main": "./dist/notific-integrate.esm.js",
+  "browser": "./dist/notific-integrate.umd.js",
+  "module": "./dist/notific-integrate.esm.js",
+  "types": "./dist/types.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DepartureLabsIC/notific-integrate.git"
+  },
+  "keywords": [
+    "notific",
+    "integrate",
+    "departurelabs"
+  ],
+  "author": "Departure Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DepartureLabsIC/notific-integrate/issues"
+  },
+  "homepage": "https://github.com/DepartureLabsIC/notific-integrate#readme"
+}
