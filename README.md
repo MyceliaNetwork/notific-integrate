@@ -74,4 +74,3 @@ const notificUrl = createUrl({
 
 - [@departurelabs/notific-integrate source](https://github.com/departurelabsic/notific)
 - [@departurelabs/notific-integrate package](https://www.npmjs.com/package/@departurelabs/notific-integrate)
-  Notific Integrate Script
